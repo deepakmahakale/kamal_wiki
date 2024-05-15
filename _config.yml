@@ -56,9 +56,9 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia
 algolia:
-  application_id         :  D5KCFQ8TVD # YOUR_APPLICATION_ID
+  application_id         :  IQU42CRRXW # YOUR_APPLICATION_ID
   index_name             :  kamal_wiki # YOUR_INDEX_NAME
-  search_only_api_key    :  425d415c56b75e2211350b644210824e # YOUR_SEARCH_ONLY_API_KEY
+  search_only_api_key    :  ca9a60e50110fdb7a3ce764e80e87eea # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
   files_to_exclude:
     - _posts/*.draft.md
@@ -91,7 +91,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-BCBCM70DL5" # Replace this with your ID, or delete
+    tracking_id          : "G-7QB4K1T6D9" # Replace this with your ID, or delete
     anonymize_ip         : false
 
 
