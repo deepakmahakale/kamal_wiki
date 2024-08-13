@@ -6,9 +6,8 @@ description: &description >
 excerpt: *description
 date: 2024-05-15
 categories:
-  - Kamal
-tags:
   - Setup
+tags:
   - Installation
 header:
   og_image: /assets/images/opengraph/2024-05-15-how-to-setup-kamal.png
