@@ -1,7 +1,7 @@
 name: Request Page Indexing
 on:
   workflow_run:
-    workflows: [deploy]
+    workflows: [pages-build-deployment]
     types: [completed]
 
 jobs:
