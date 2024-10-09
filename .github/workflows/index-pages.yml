@@ -18,7 +18,7 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm i -g --production
+        run: npm install -g google-indexing-script
         
       - name: Cache Index File
         id: cache-index
@@ -27,7 +27,8 @@ jobs:
           path: .cache/
           key: ${{ runner.os }}-cache
           
-      - run: google-indexing-script kamal.wiki
+      - name: Run Google Indexing Script
+        run: google-indexing-script kamal.wiki
         env:
           GIS_CLIENT_EMAIL: ${{ secrets.GIS_CLIENT_EMAIL }}
           GIS_PRIVATE_KEY: ${{ secrets.GIS_PRIVATE_KEY }}
