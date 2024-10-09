@@ -27,7 +27,7 @@ jobs:
           path: .cache/
           key: ${{ runner.os }}-cache
           
-      - run: gis kamal.wiki
+      - run: google-indexing-script kamal.wiki
         env:
           GIS_CLIENT_EMAIL: ${{ secrets.GIS_CLIENT_EMAIL }}
           GIS_PRIVATE_KEY: ${{ secrets.GIS_PRIVATE_KEY }}
