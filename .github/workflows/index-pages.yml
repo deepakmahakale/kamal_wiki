@@ -10,17 +10,23 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v4
+      
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm i
+        
       - name: Cache Index File
         id: cache-index
         uses: actions/cache@v4
         with:
           path: .cache/
           key: ${{ runner.os }}-cache
+          
       - run: gis kamal.wiki
         env:
           GIS_CLIENT_EMAIL: ${{ secrets.GIS_CLIENT_EMAIL }}
