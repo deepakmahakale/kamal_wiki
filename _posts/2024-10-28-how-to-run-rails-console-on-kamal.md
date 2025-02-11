@@ -5,13 +5,13 @@ description: &description >
   This article explains how to run the Rails console on Kamal.
 excerpt: *description
 date: 2024-10-28
-categories:
-  - Kamal
 tags:
   - Rails
   - Console
 header:
   og_image: /assets/images/opengraph/2024-10-28-how-to-run-rails-console-on-kamal.png
+redirect_from:
+ - /kamal/how-to-run-rails-console-on-kamal/
 ---
 
 ### With Kamal 1.x

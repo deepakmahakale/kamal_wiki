@@ -5,8 +5,6 @@ description: &description >
   This article explains how to view Rails app logs on Kamal.
 excerpt: *description
 date: 2025-02-13
-categories:
-  - Kamal
 tags:
   - Rails
   - Logs

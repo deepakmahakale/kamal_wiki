@@ -5,8 +5,6 @@ description: &description >
   This article explains how to rollback a deployment with Kamal.
 excerpt: *description
 date: 2025-02-17
-categories:
-  - Kamal
 tags:
   - Rails
   - Rollback

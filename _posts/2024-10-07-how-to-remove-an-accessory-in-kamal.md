@@ -6,11 +6,13 @@ description: &description >
 excerpt: *description
 date: 2024-10-07
 categories:
-  - Kamal
+  - Accessory
 tags:
   - Accessory
 header:
   og_image: /assets/images/opengraph/2024-10-07-how-to-remove-an-accessory-in-kamal.png
+redirect_from:
+ - /kamal/how-to-remove-an-accessory-in-kamal/
 ---
 
 ```bash

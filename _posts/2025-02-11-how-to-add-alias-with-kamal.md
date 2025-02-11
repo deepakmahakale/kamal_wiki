@@ -5,8 +5,6 @@ description: &description >
   This article explains how to add alias with Kamal.
 excerpt: *description
 date: 2025-02-11
-categories:
-  - Kamal
 tags:
   - Alias
 header:

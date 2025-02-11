@@ -6,11 +6,13 @@ description: &description >
 excerpt: *description
 date: 2024-08-12
 categories:
-  - Kamal
+  - Accessory
 tags:
   - Postgres
 header:
   og_image: /assets/images/opengraph/2024-10-07-deploying-rails-application-with-kamal-and-postgres.png
+redirect_from:
+  - /kamal/deploying-rails-application-with-kamal-and-postgres/
 ---
 
 This article assumes the file exists with sqlite config:
