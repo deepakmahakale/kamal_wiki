@@ -24,7 +24,7 @@ aliases:
 and then run the following command:
 
 ```bash
-$ kamal console
+$ kamal logs
 
 INFO Following logs on 37.xx.xxx.xx.
 ```
