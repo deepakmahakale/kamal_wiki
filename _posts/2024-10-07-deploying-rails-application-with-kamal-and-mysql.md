@@ -1,8 +1,10 @@
 ---
 layout: single
-title: Deploying Rails application with Kamal and MySQL
+title: Deploying Rails application with Kamal and MySQL - Complete Guide.
 description: &description >
-  This article explains how to deploy a Rails application with Kamal and MySQL.
+  Ready to deploy your Rails app using Kamal and MySQL?
+  This detailed guide covers everything from Gemfile updates to database configuration and deployment commands.
+  Get started with confidence - follow along!
 excerpt: *description
 date: 2024-08-12
 categories:
@@ -18,6 +20,9 @@ redirect_from:
 This article assumes the file exists with `sqlite` config:
 
 For complete config visit [Kamal Config Generator](https://dailydevtools.com/kamal_config)
+
+**Note:** This post will guide you through deploying a Rails application with **MySQL** using Kamal. If you're looking to deploy a Rails application with **PostgreSQL**, check out our guide on [Deploying Rails application with Kamal and Postgres]({% post_url 2024-10-07-deploying-rails-application-with-kamal-and-postgres %}).
+{: .notice--info}
 
 ### Pro Tip:
 
@@ -190,3 +195,5 @@ If you get an error saying the service `app-name-db` already exists you can remo
 kamal accessory remove db
 kamal deploy
 ```
+
+We have a separate guide on [how to remove an accessory in Kamal]({% post_url 2024-10-07-how-to-remove-an-accessory-in-kamal %}).

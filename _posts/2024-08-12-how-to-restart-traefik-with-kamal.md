@@ -2,7 +2,9 @@
 layout: single
 title: How to restart Traefik with Kamal?
 description: &description >
-  This article explains how to restart Traefik with Kamal.
+  Need to restart Traefik for your Kamal deployment?
+  Discover the commands for restarting and rebooting Traefik, plus when to use each.
+  Keep your routing smooth - check out the guide!
 excerpt: *description
 date: 2024-08-12
 categories:

@@ -2,7 +2,8 @@
 layout: single
 title: How to setup Kamal?
 description: &description >
-  This article explains how to setup kamal.
+  Learn how to set up Kamal for your Rails application.
+  This guide covers installation, initialization, and configuration steps.
 excerpt: *description
 date: 2024-05-15
 last_modified_at: 2024-10-07T20:00:00+05:30

@@ -1,8 +1,10 @@
 ---
 layout: single
-title: How to view Rails app logs on Kamal?
+title: How to access Rails app logs on Kamal?
 description: &description >
-  This article explains how to view Rails app logs on Kamal.
+  Discover how to access your Rails app logs using Kamal's aliases feature.
+  This post walks you through setting up and using the logs alias for real-time monitoring.
+  Start debugging faster - check it out!
 excerpt: *description
 date: 2025-02-13
 tags:

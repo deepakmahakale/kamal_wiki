@@ -1,10 +1,12 @@
 ---
 layout: single
-title: How to run rails console on Kamal?
+title: Accessing the rails console on Kamal?
 description: &description >
-  This article explains how to run the Rails console on Kamal.
+  Learn how to open the Rails console in Kamal for both version 1.x and 2.0.
+  This guide covers commands and aliases to make debugging and management easy. Start exploring your app.
 excerpt: *description
 date: 2024-10-28
+last_modified_at: 2025-02-27T16:00:00+05:30
 tags:
   - Rails
   - Console
@@ -14,17 +16,13 @@ redirect_from:
  - /kamal/how-to-run-rails-console-on-kamal/
 ---
 
-### With Kamal 1.x
+The Rails console is a powerful tool for debugging, testing, and managing your Rails application. You can use it to interact with your application's models, run queries, etc.
 
-With Kamal 1.x, you can run the Rails console using the following command:
-
-```bash
-kamal app exec -i --reuse "bin/rails console"
-```
+A common use case would be to check some data related to users, products or specific scenarios like users with specific attributes, etc.
 
 ### With Kamal 2.0
 
-With the introduction of [aliases](https://kamal-deploy.org/docs/configuration/aliases/) in Kamal 2.0 it's even easier to run the Rails console.
+With the introduction of [aliases](https://kamal-deploy.org/docs/configuration/aliases/) in Kamal 2.0 it's easier to run the Rails console.
 
 You can define `aliases` in the `deploy.yml` file:
 
@@ -37,4 +35,12 @@ and then run the Rails console using the following command:
 
 ```bash
 kamal console
+```
+
+### With Kamal 1.x
+
+With Kamal 1.x, you can run the Rails console using the following command:
+
+```bash
+kamal app exec -i --reuse "bin/rails console"
 ```

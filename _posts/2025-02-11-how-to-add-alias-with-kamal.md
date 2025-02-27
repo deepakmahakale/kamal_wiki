@@ -1,8 +1,10 @@
 ---
 layout: single
-title: How to add alias with Kamal?
+title: "Simplify Commands: How to add and use alias in Kamal?"
 description: &description >
-  This article explains how to add alias with Kamal.
+  Unlock the magic of aliases in Kamal to streamline your workflow.
+  Learn how to set up custom aliases for tasks like running the Rails console or accessing logs.
+  Boost your productivity - explore the guide!
 excerpt: *description
 date: 2025-02-11
 tags:
