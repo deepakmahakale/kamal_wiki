@@ -202,3 +202,5 @@ kamal deploy
 ```
 
 We have a separate guide on [how to remove an accessory in Kamal]({% post_url 2024-10-07-how-to-remove-an-accessory-in-kamal %}).
+
+{% include promo-compact.html %}

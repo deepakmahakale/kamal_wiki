@@ -26,3 +26,5 @@ kamal env push
 ```
 
 The above command uses the configuration in `config/deploy.yml` and env variables from `.env` file to push the env files to the hosts.
+
+{% include promo-compact.html %}

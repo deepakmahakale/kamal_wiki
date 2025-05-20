@@ -44,3 +44,5 @@ With Kamal 1.x, you can run the Rails console using the following command:
 ```bash
 kamal app exec -i --reuse "bin/rails console"
 ```
+
+{% include promo-compact.html %}
