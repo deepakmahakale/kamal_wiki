@@ -6,13 +6,13 @@ on:
 
 jobs:
   on-success:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           cache: 'npm'
           
@@ -21,7 +21,7 @@ jobs:
         
       - name: Cache Index File
         id: cache-index
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .cache/
           key: ${{ runner.os }}-cache
