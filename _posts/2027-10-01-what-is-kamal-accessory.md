@@ -73,7 +73,7 @@ env:
 - **image** - the Docker image to run
 - **host** - which server the accessory runs on
 - **port** - host:container port mapping
-- **env** - `clear` for plain values, `secret` for values pulled from `.kamal/secrets`, see [Managing Secrets with Kamal]({% post_url 2026-01-01-managing-secrets-with-kamal %})
+- **env** - `clear` for plain values, `secret` for values pulled from `.kamal/secrets`, see [Managing Secrets with Kamal]({% post_url 2027-10-01-managing-secrets-with-kamal %})
 - **directories** - persists data outside the container so it survives restarts
 - **files** - copies local files into the container on boot, useful for seed SQL or config files
 
