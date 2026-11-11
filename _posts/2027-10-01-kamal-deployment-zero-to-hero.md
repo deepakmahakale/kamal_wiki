@@ -88,7 +88,7 @@ RAILS_MASTER_KEY=$(cat config/master.key)
 KAMAL_REGISTRY_PASSWORD=dckr_pat_*******************o
 ```
 
-Read more on handling secrets in [Managing Secrets with Kamal - A Complete Guide]({% post_url 2026-01-01-managing-secrets-with-kamal %})
+Read more on handling secrets in [Managing Secrets with Kamal - A Complete Guide]({% post_url 2027-10-01-managing-secrets-with-kamal %})
 
 ### 5. Deploy
 
@@ -124,7 +124,7 @@ kamal app exec --interactive --reuse "bin/rails console"   # rails console
 kamal app details       # container status
 ```
 
-You can also set up shortcuts for these with [aliases]({% post_url 2025-02-11-how-to-add-alias-with-kamal %}), and add extra services like a database or Redis with [accessories]({% post_url 2026-01-01-what-is-kamal-accessory %}).
+You can also set up shortcuts for these with [aliases]({% post_url 2025-02-11-how-to-add-alias-with-kamal %}), and add extra services like a database or Redis with [accessories]({% post_url 2027-10-01-what-is-kamal-accessory %}).
 
 ### FAQs
 

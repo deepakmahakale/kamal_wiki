@@ -72,7 +72,7 @@ accessories:
 MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
 ```
 
-See [Understanding Kamal Accessories]({% post_url 2026-01-01-what-is-kamal-accessory %}) for more on accessory configuration.
+See [Understanding Kamal Accessories]({% post_url 2027-10-01-what-is-kamal-accessory %}) for more on accessory configuration.
 
 ### 5. Pushing env changes (Kamal v1)
 
