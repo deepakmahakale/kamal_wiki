@@ -2,9 +2,7 @@
 layout: single
 title: "Simplify Commands: How to add and use alias in Kamal?"
 description: &description >
-  Unlock the magic of aliases in Kamal to streamline your workflow.
-  Learn how to set up custom aliases for tasks like running the Rails console or accessing logs.
-  Boost your productivity - explore the guide!
+  Set up Kamal aliases for common tasks like opening the Rails console or tailing logs, so long commands become one word.
 excerpt: *description
 date: 2025-02-11
 tags:

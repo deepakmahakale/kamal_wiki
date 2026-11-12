@@ -2,9 +2,7 @@
 layout: single
 title: Deploying Rails application with Kamal and SQLite
 description: &description >
-  Ready to deploy your Rails app using Kamal and SQLite?
-  This guide covers the steps to deploy your Rails application with SQLite using Kamal.
-  Get your app up and running - read more!
+  Deploy a Rails app that uses SQLite with Kamal: volumes for the database files, configuration and the deploy steps.
 excerpt: *description
 date: 2026-01-01
 tags:

@@ -1,10 +1,8 @@
 ---
 layout: single
-title: Deploying Rails application with Kamal and MySQL - Complete Guide.
+title: "Deploy a Rails app with Kamal and MySQL: Complete Guide"
 description: &description >
-  Ready to deploy your Rails app using Kamal and MySQL?
-  This detailed guide covers everything from Gemfile updates to database configuration and deployment commands.
-  Get started with confidence - follow along!
+  Deploy a Rails app with Kamal and MySQL: Gemfile changes, the MySQL accessory, database configuration and the deploy commands, step by step.
 excerpt: *description
 date: 2024-08-12
 categories:

@@ -2,8 +2,7 @@
 layout: single
 title: Accessing the rails console on Kamal?
 description: &description >
-  Learn how to open the Rails console in Kamal for both version 1.x and 2.0.
-  This guide covers commands and aliases to make debugging and management easy. Start exploring your app.
+  Open the Rails console on a Kamal-deployed app, in Kamal 1.x and 2.0, plus an alias that makes it a one-word command.
 excerpt: *description
 date: 2024-10-28
 last_modified_at: 2025-02-27T16:00:00+05:30
