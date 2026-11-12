@@ -2,9 +2,7 @@
 layout: single
 title: How to run a rake task on Kamal?
 description: &description >
-  Need to execute a Rake task on your Kamal-deployed Rails app?
-  This tutorial provides the exact command and syntax you need.
-  Get your tasks running smoothly - read more!
+  The exact kamal app exec command to run a rake task on a Rails app deployed with Kamal, with the syntax and an example.
 excerpt: *description
 date: 2024-10-30
 tags:

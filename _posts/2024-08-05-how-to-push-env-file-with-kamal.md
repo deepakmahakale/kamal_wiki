@@ -2,9 +2,7 @@
 layout: single
 title: How to push the env file with Kamal?
 description: &description >
-  Learn how to push your environment variables to hosts using Kamal's env push command.
-  This post covers configuration, best practices, and how to secure your secrets.
-  Simplify your deployment - Read more!
+  Push environment variables to your hosts with Kamal's env push command, and the configuration it needs in deploy.yml.
 excerpt: *description
 date: 2024-08-05
 categories:

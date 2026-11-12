@@ -2,9 +2,7 @@
 layout: single
 title: How to rollback a deployment with Kamal?
 description: &description >
-  Learn how to rollback a deployment in Kamal using the kamal rollback command.
-  This guide covers finding the right version, executing the rollback, and verifying successful rollback.
-  Ensure your Rails app stays stable - read more!
+  Roll back a Kamal deployment with kamal rollback: find the version you want to go back to, then run the rollback.
 excerpt: *description
 date: 2025-02-17
 tags:

@@ -2,9 +2,7 @@
 layout: single
 title: How to use local docker registry with kamal?
 description: &description >
-  Want to deploy your Rails app without setting up a remote Docker registry?
-  Learn how to use Kamal's new local Docker registry feature to streamline your deployment process.
-  Save 10-15 seconds per deployment and simplify your setup!
+  Deploy a Rails app with Kamal's local Docker registry instead of a remote one: simpler setup and 10-15 seconds saved per deploy.
 excerpt: *description
 date: 2025-10-09
 categories:

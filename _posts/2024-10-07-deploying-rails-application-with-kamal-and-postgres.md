@@ -1,11 +1,8 @@
 ---
 layout: single
-title: Deploying Rails application with Kamal and Postgres - Complete Guide.
+title: "Deploy a Rails app with Kamal and Postgres: Complete Guide"
 description: &description >
-  Switching to PostgreSQL for your Rails app?
-  Learn how to configure Kamal for seamless deployment with Postgres.
-  This guide includes database setup, environment variables, and troubleshooting tips.
-  Deploy like a pro - read now!
+  Deploy a Rails app with Kamal and PostgreSQL: the Postgres accessory, database setup, environment variables and troubleshooting tips.
 excerpt: *description
 date: 2024-08-12
 categories:

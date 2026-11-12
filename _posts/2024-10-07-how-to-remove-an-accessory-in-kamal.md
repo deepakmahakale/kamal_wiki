@@ -1,11 +1,8 @@
 ---
 layout: single
-title: How to remove an accessory in Kamal - A Troubleshooting Guide
+title: "How to remove an accessory in Kamal"
 description: &description >
-  Encountering conflicts with Kamal accessories?
-  Learn how to safely remove an accessory and redeploy your app.
-  This post includes commands and tips to resolve common issues.
-  Fix your setup - read more!
+  How to safely remove an accessory in Kamal and redeploy your app, with the commands to fix the conflicts a leftover accessory causes.
 excerpt: *description
 date: 2024-10-07
 last_modified_at: 2025-02-27T16:00:00+05:30

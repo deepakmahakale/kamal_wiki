@@ -18,7 +18,7 @@ name                     : &name "Deepak Mahakale" # &name is a YAML anchor whic
 description              : &description "Unofficial wiki for Kamal: No-nonsense tips and solutions for kamal. Short, clear, and straight to the point."
 url                      : https://kamal.wiki # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "deepakmahakale/kamal.wiki"
+repository               : "deepakmahakale/kamal_wiki"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 mask_icon_color          : "#cc0000" # Safari pinned tab and Windows tile color
@@ -87,6 +87,9 @@ social:
   links: # An array of links to social media profiles
     - "https://twitter.com/deepakmahakale"
     - "https://www.facebook.com/deepakmahakale1"
+    - "https://github.com/deepakmahakale"
+    - "https://www.linkedin.com/in/deepakmahakale"
+    - "https://stackoverflow.com/users/4758119/deepak-mahakale"
 
 # Analytics
 analytics:
@@ -99,6 +102,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  uri              : "https://deepakmahakale.com" # author URL in structured data
   avatar           : "/assets/images/deepakmahakale.jpg"
   bio              : "India based Ruby on Rails Developer. Talks about ruby, rails, JS"
   location         : "Pune, India"
