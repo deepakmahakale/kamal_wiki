@@ -134,5 +134,3 @@ More servers? Add hosts to the `job` role. Every host runs its own supervisor, a
 - [Kamal docs: Roles](https://kamal-deploy.org/docs/configuration/roles/){:target="_blank"}
 - [Solid Queue on GitHub](https://github.com/rails/solid_queue){:target="_blank"}
 - [Stack Overflow: Setting up Solid Queue jobs on a dedicated server with Rails 8 + Kamal 2](https://stackoverflow.com/questions/79371773){:target="_blank"}
-
-{% include promo-compact.html %}

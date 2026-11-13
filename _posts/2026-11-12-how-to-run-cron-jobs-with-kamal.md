@@ -142,5 +142,3 @@ Edit `config/crontab` and run `kamal deploy`. The crontab is part of the image, 
 - [Kamal docs: Roles](https://kamal-deploy.org/docs/configuration/roles/){:target="_blank"}
 - [Supercronic](https://github.com/aptible/supercronic){:target="_blank"}
 - [Solid Queue: Recurring tasks](https://github.com/rails/solid_queue#recurring-tasks){:target="_blank"}
-
-{% include promo-compact.html %}

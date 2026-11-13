@@ -93,5 +93,3 @@ kamal app details
 ```
 
 This feature makes Kamal even more developer-friendly by removing the friction of setting up remote registries for development workflows.
-
-{% include promo-compact.html %}
