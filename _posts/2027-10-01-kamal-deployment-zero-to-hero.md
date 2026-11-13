@@ -139,5 +139,3 @@ Kamal builds a new image, pushes it to your registry, pulls it on each server, b
 
 **How do I undo a bad deploy?**
 Use `kamal rollback [VERSION]` with the previous container's version hash, see the rollback section above.
-
-{% include promo-compact.html %}
