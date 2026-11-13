@@ -114,5 +114,3 @@ kamal lock release      # after a deploy was interrupted
 ## References
 
 - [Kamal commands](https://kamal-deploy.org/docs/commands/view-all-commands/){:target="_blank"}
-
-{% include promo-compact.html %}

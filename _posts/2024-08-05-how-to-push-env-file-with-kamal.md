@@ -84,5 +84,3 @@ The above command uses the configuration in `config/deploy.yml` and env variable
 After changing `.env`, run `kamal env push` and then restart the app (`kamal app boot`) so containers pick up the new values.
 
 Upgrading from Kamal 1? `kamal upgrade` moves your servers to Kamal 2. Then move the values from `.env` into `.kamal/secrets`.
-
-{% include promo-compact.html %}
