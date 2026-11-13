@@ -28,3 +28,5 @@ $ kamal logs
 
 INFO Following logs on 37.xx.xxx.xx.
 ```
+
+{% include promo-compact.html %}

@@ -121,3 +121,5 @@ Make sure you've set `directories` so the accessory's data lives on a volume out
 
 **App can't connect to the accessory**
 Double check the `host` the accessory is running on matches what your app's env var points to, and that the port is actually exposed.
+
+{% include promo-compact.html %}

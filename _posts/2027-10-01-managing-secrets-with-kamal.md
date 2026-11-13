@@ -102,3 +102,5 @@ Rotate the credential immediately on the provider's side, then remove it from gi
 - Keep `.env` local and out of git.
 - Rotate `RAILS_MASTER_KEY` and registry tokens periodically, especially after someone leaves the project.
 - Use `clear` only for values that are safe to see in plain text in logs and `docker inspect`.
+
+{% include promo-compact.html %}
